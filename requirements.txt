@@ -1,0 +1,10 @@
+# The price service has no dependencies, on purpose.
+#
+# Everything it uses -- the HTTP server, JSON, decimal arithmetic, the log
+# rotation -- is in Python's standard library, so there is no virtual
+# environment to create, nothing to download, and nothing that can go out of
+# date or stop being published. `python3 server.py` is the whole runtime.
+#
+# This file exists so that looking for it answers the question instead of
+# leaving it open. If a dependency is ever added, it goes here and install.sh
+# will need a step that installs it.

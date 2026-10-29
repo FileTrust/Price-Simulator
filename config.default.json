@@ -1,0 +1,32 @@
+{
+  "host": "127.0.0.1",
+  "port": 8787,
+  "chain_id": 31338,
+  "ttl_seconds": 30,
+  "source": "config",
+  "dex": {
+    "name": "FileTrust Local Quote Feed",
+    "factory_address": "0x0000000000000000000000000000000000000000",
+    "router_address": "0x0000000000000000000000000000000000000000",
+    "pair_address": "0x0000000000000000000000000000000000000000"
+  },
+  "base_token": {
+    "symbol": "FTU",
+    "name": "FileTrust Unit",
+    "address": "0x0000000000000000000000000000000000000000",
+    "decimals": 18
+  },
+  "quote_token": {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "address": "0x0000000000000000000000000000000000000000",
+    "decimals": 6
+  },
+  "price": {
+    "ftu_usdc": "0.02"
+  },
+  "public_url": "http://127.0.0.1:8787",
+  "log_max_mb": 50,
+  "log_keep_days": 14,
+  "log_max_total_mb": 1000
+}
